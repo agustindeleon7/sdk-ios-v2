@@ -6,7 +6,7 @@ target 'sdk_ios_v2' do
   use_frameworks!
 
   # Pods for sdk_ios_v2
-  pod 'Alamofire', '~> 4.7'
+  pod 'Alamofire'
   target 'sdk_ios_v2Tests' do
     inherit! :search_paths
     # Pods for testing

@@ -33,7 +33,7 @@ s.ios.deployment_target = '9.0'
 s.library = 'z'
 s.ios.vendored_frameworks = 'TrustDefender.framework'
 s.source_files = 'sdk_ios_v2/**/*'
-s.dependency 'Alamofire', '~> 4.7'
+s.dependency 'Alamofire'
 s.exclude_files = 'sdk_ios_v2/**/Info.plist'
 s.swift_version = '4.2'
 end
