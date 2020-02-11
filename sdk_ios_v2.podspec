@@ -29,6 +29,10 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Decidir' => 'developers@decidir.com' }
 s.source           = { :git => 'https://github.com/decidir/SDK-IOS.v2.git', :tag => s.version.to_s }
 
+s.pod_target_xcconfig = {
+  'ENABLE_BITCODE' => 'NO'
+}
+
 s.ios.deployment_target = '9.0'
 s.library = 'z'
 s.ios.vendored_frameworks = 'TrustDefender.framework'
